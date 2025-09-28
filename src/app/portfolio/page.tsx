@@ -7,6 +7,15 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import Marquee from "react-fast-marquee";
+import {
+  Carousel,
+  CarouselItem,
+  CarouselContent,
+  CarouselPrevious,
+  CarouselNext,
+} from "@/components/ui/carousel";
+
 export default function Portfolio() {
   const photos = [
     { src: "/cover/LatinxFashionCover.png", alt: "Latinx Fashion Cover" },
@@ -50,26 +59,26 @@ export default function Portfolio() {
                   {photo.alt}
                 </DialogTitle>
               </DialogHeader>
-              <div className="flex items-center justify-center gap-2">
-                <Image
-                  src={photo.src}
-                  alt={photo.alt}
-                  width={750}
-                  height={750}
-                  quality={80}
-                  key={photo.src}
-                ></Image>
-                <DialogDescription>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </DialogDescription>
-              </div>
+              
+                <Carousel className="w-full flex items-center justify-center">
+                  <CarouselContent>
+                    {photos.map((photo) => (
+                      <CarouselItem key={photo.src} className="flex items-center justify-center">
+                        <Image
+                          src={photo.src}
+                          alt={photo.alt}
+                          width={750}
+                          height={750}
+                          quality={80}
+                        ></Image>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                    <CarouselPrevious className="ml-8"/>
+                    <CarouselNext className="mr-8"/>
+                  
+                </Carousel>
+              
             </DialogContent>
           </Dialog>
         ))}
