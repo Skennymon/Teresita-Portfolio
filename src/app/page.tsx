@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className="flex items-center justify-center relative">
         <Image
           src="/Intro-Graphic.jpg"
