@@ -293,8 +293,10 @@ export default function Portfolio() {
           </Dialog>
         ))}
       </div>
-      <div className="hidden xl:block">
-        <div>
+
+      {/* Large Screen View */}
+      <div className="hidden xl:block relative h-dvh">
+        <div className="absolute left-[50%] z-1">
           <DialogCustom
             src="/cover/LatinxFashionCover.png"
             alt="Latinx Fashion Cover"
@@ -376,7 +378,7 @@ export default function Portfolio() {
           />
         </div>
 
-        <div>
+        <div className="absolute left-[50%] top-[90%] z-1">
           <DialogCustom
             src="/cover/GravitiFitnessCover.jpg"
             alt="Graviti Fitness Cover"
@@ -391,7 +393,7 @@ export default function Portfolio() {
           />
         </div>
 
-        <div>
+        <div className="absolute left-[2%] top-[90%] z-2">
           <DialogCustom
             src="/cover/ZotfestCover.jpg"
             alt="Zotfest Cover"
@@ -414,7 +416,7 @@ export default function Portfolio() {
           />
         </div>
 
-        <div>
+        <div className="absolute left-[25%] top-[175%] z-2">
           <DialogCustom
             src="/cover/DreamBoyCover.png"
             alt="DreamBoys Cover"
@@ -428,7 +430,7 @@ export default function Portfolio() {
           />
         </div>
 
-        <div>
+        <div className="absolute z-2">
           <DialogCustom
             src="/cover/EcholaliaDreams.jpg"
             alt="Echolalia Dreams Cover"
@@ -442,7 +444,7 @@ export default function Portfolio() {
           />
         </div>
 
-        <div>
+        <div className="absolute">
           <DialogCustom
             src="/cover/Fashion&SneakersCover.jpg"
             alt="Fashion & Sneakers Cover"
@@ -468,7 +470,7 @@ export default function Portfolio() {
           />
         </div>
 
-        <div>
+        <div className="absolute">
           <DialogCustom
             src="/cover/LeyMusicVideoCover.jpg"
             alt="Ley Music Video Cover"
@@ -484,7 +486,7 @@ export default function Portfolio() {
           />
         </div>
 
-        <div>
+        <div className="absolute">
           <DialogCustom
             src="/cover/EcholaliaDreamsSetCover.jpg"
             alt="Echolalia Dreams Set Cover"
@@ -506,7 +508,7 @@ export default function Portfolio() {
           />
         </div>
 
-        <div>
+        <div className="absolute">
           <DialogCustom
             src="/cover/GraduationWithKimCover.jpg"
             alt="Graduation With Kim Cover"
