@@ -23,6 +23,10 @@ export default function Portfolio() {
       alt: "Latinx Fashion Cover",
       correspondingPhotos: [
         {
+          src: "/cover/LatinxFashionCover.png",
+          alt: "Latinx Fashion Cover Photo",
+        },
+        {
           src: "/LatinxFashionPhotos/page1.png",
           alt: "Latinx Fashion Cover Photo 1",
         },
@@ -91,46 +95,85 @@ export default function Portfolio() {
           alt: "Latinx Fashion Cover Photo 17",
         },
       ],
+      correspondingVideos: [],
     },
     {
       src: "/cover/GravitiFitnessCover.jpg",
       alt: "Graviti Fitness Cover",
-      correspondingPhotos: [{ src: "/LatinxFashionPhotos/page16.png", alt: "Alt" }],
+      correspondingPhotos: [
+        { src: "/cover/GravitiFitnessCover.jpg", alt: "Alt" },
+        { src: "/Graviti/Graviti1.jpg", alt: "Analytics" },
+        { src: "/Graviti/Graviti2.jpg", alt: "Analytics" },
+        { src: "/Graviti/Graviti3.jpg", alt: "Picture Cookies" },
+        { src: "/Graviti/Graviti4.jpg", alt: "More Cookies" },
+      ],
+      correspondingVideos: [],
     },
     {
       src: "/cover/ZotfestCover.jpg",
       alt: "Zotfest Cover",
-      correspondingPhotos: [],
+      correspondingPhotos: [
+        { src: "/cover/ZotfestCover.jpg", alt: "Zotfest Cover Photo" },
+        { src: "/Zotfest/3.png", alt: "Zotfest Photo 1" },
+        { src: "/Zotfest/4.png", alt: "Zotfest Photo 2" },
+        { src: "/Zotfest/5.png", alt: "Zotfest Photo 3" },
+        { src: "/Zotfest/6.png", alt: "Zotfest Photo 4" },
+        { src: "/Zotfest/7.png", alt: "Zotfest Photo 5" },
+        { src: "/Zotfest/8.png", alt: "Zotfest Photo 6" },
+        { src: "/Zotfest/9.png", alt: "Zotfest Photo 7" },
+        { src: "/Zotfest/10.png", alt: "Zotfest Photo 8" },
+        { src: "/Zotfest/11.png", alt: "Zotfest Photo 9" },
+        { src: "/Zotfest/12.png", alt: "Zotfest Photo 10" },
+        { src: "/Zotfest/13.png", alt: "Zotfest Photo 11" },
+        { src: "/Zotfest/14.png", alt: "Zotfest Photo 12" },
+      ],
+      correspondingVideos: [],
     },
     {
       src: "/cover/DreamBoyCover.png",
       alt: "DreamBoys Cover",
       correspondingPhotos: [],
+      correspondingVideos: [
+        {
+          src: "https://www.youtube.com/embed/_UKBQHI-Mi8?si=Q649Msw2NtSiuIVn",
+          alt: "DreamBoys Video",
+        },
+      ],
     },
     {
       src: "/cover/EcholaliaDreams.jpg",
       alt: "Echolalia Dreams Cover",
       correspondingPhotos: [],
+      correspondingVideos: [
+        {
+          src: "https://www.youtube.com/embed/S8RgGivJj-M?si=xQKm9VDtYmsVyGs-",
+          alt: "Echolalia Dreams Video",
+        },
+      ],
     },
     {
       src: "/cover/Fashion&SneakersCover.jpg",
       alt: "Fashion & Sneakers Cover",
       correspondingPhotos: [],
+      correspondingVideos: [],
     },
     {
       src: "/cover/LeyMusicVideoCover.jpg",
       alt: "Ley Music Video Cover",
       correspondingPhotos: [],
+      correspondingVideos: [],
     },
     {
       src: "/cover/EcholaliaDreamsSetCover.jpg",
       alt: "Echolalia Dreams Set Cover",
       correspondingPhotos: [],
+      correspondingVideos: [],
     },
     {
       src: "/cover/GraduationWithKimCover.jpg",
       alt: "Graduation With Kim Cover",
       correspondingPhotos: [],
+      correspondingVideos: [],
     },
   ];
 
@@ -162,9 +205,26 @@ export default function Portfolio() {
                     <CarouselItem
                       key={correspondingPhoto.src}
                       className="w-full flex items-center justify-center"
-                      >
-                        <Image src={correspondingPhoto.src} alt={correspondingPhoto.alt} width={1000} height={1000} quality={80}></Image>
+                    >
+                      <Image
+                        src={correspondingPhoto.src}
+                        alt={correspondingPhoto.alt}
+                        width={900}
+                        height={900}
+                        quality={80}
+                      ></Image>
                     </CarouselItem>
+                  ))}
+                  {photo.correspondingVideos.map((correspondingVideo) => (
+                    <iframe
+                      key={correspondingVideo.src}
+                      width={950}
+                      height={600}
+                      src={correspondingVideo.src}
+                      title="YouTube video player"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    ></iframe>
                   ))}
                 </CarouselContent>
                 <CarouselPrevious className="ml-8" />
