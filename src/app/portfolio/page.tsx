@@ -154,25 +154,45 @@ export default function Portfolio() {
     {
       src: "/cover/Fashion&SneakersCover.jpg",
       alt: "Fashion & Sneakers Cover",
-      correspondingPhotos: [],
+      correspondingPhotos: [
+        { src: "/cover/Fashion&SneakersCover.jpg", alt: "Fashion & Sneakers Cover Photo" },
+        { src: "/Fashion&Sneakers/Fashion&Sneakers1.jpg", alt: "Fashion & Sneakers Photo 1" },
+        { src: "/Fashion&Sneakers/Fashion&Sneakers2.JPG", alt: "Fashion & Sneakers Photo 2" },
+        { src: "/Fashion&Sneakers/Fashion&Sneakers3.JPG", alt: "Fashion & Sneakers Photo 3" },
+      ],
       correspondingVideos: [],
     },
     {
       src: "/cover/LeyMusicVideoCover.jpg",
       alt: "Ley Music Video Cover",
-      correspondingPhotos: [],
+      correspondingPhotos: [
+        { src: "/cover/LeyMusicVideoCover.jpg", alt: "Ley Music Video Cover Photo" },
+        { src: "/Ley/Ley1.jpg", alt: "Ley Music Video Photo 1" },
+        { src: "/Ley/Ley2.jpg", alt: "Ley Music Video Photo 2" },
+      ],
       correspondingVideos: [],
     },
     {
       src: "/cover/EcholaliaDreamsSetCover.jpg",
       alt: "Echolalia Dreams Set Cover",
-      correspondingPhotos: [],
+      correspondingPhotos: [
+        { src: "/cover/EcholaliaDreamsSetCover.jpg", alt: "Echolalia Dreams Set Cover Photo" },
+        { src: "/Echolalia/Echolalia1.jpg", alt: "Echolalia Dreams Set Photo 1" },
+        { src: "/Echolalia/Echolalia3.jpg", alt: "Echolalia Dreams Set Photo 2" },
+
+      ],
       correspondingVideos: [],
     },
     {
       src: "/cover/GraduationWithKimCover.jpg",
       alt: "Graduation With Kim Cover",
-      correspondingPhotos: [],
+      correspondingPhotos: [
+        { src: "/cover/GraduationWithKimCover.jpg", alt: "Graduation With Kim Cover Photo" },
+        { src: "/Graduation/grad1.jpg", alt: "Graduation With Kim Cover Photo 1" },
+        { src: "/Graduation/grad2.jpg", alt: "Graduation With Kim Cover Photo 2" },
+        { src: "/Graduation/grad3.jpg", alt: "Graduation With Kim Cover Photo 3" },
+        { src: "/Graduation/grad4.jpg", alt: "Graduation With Kim Cover Photo 4" },
+      ],
       correspondingVideos: [],
     },
   ];
