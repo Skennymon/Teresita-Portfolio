@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
   return (
     <>
-      <div className="flex items-center justify-center relative">
+      <section className="flex items-center justify-center relative">
         <Image
           src="/Intro-Graphic.jpg"
           alt="Intro Graphic"
@@ -24,7 +25,22 @@ export default function Home() {
             Enter Portfolio
           </Link>
         </div>
-      </div>
+      </section>
+
+      <section className="w-full flex flex-col gap-4 items-center justify-center mt-4">
+        <Marquee>
+          <Image src="/Graviti/Graviti1.jpg" alt="Graviti1" width={300} height={100} className="mx-4"/>
+          <Image src="/Graviti/Graviti2.jpg" alt="Graviti2" width={300} height={100} className="mx-4"/>
+          <Image src="/Graviti/Graviti3.jpg" alt="Graviti3" width={300} height={100} className="mx-4"/>
+          <Image src="/Graviti/Graviti4.jpg" alt="Graviti4" width={300} height={100} className="mx-4"/>
+          <Image src="/Zotfest/3.png" alt="Zotfest1" width={300} height={100} className="mx-4"/>
+          <Image src="/Zotfest/4.png" alt="Zotfest1" width={300} height={100} className="mx-4"/>
+          <Image src="/cover/LatinxFashionCover.png" alt="Latinx Fashion Cover" width={300} height={100} className="mx-4"/>
+          <Image src="/cover/DreamBoyCover.png" alt="Dream Boy Cover" width={300} height={100} className="mx-4"/>
+        </Marquee>
+        <h2 className="lg:text-7xl md:text-5xl text-2xl">About Me</h2>
+
+      </section>
     </>
   );
 }
