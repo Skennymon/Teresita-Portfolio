@@ -29,13 +29,14 @@ export default function DialogCustom({
 }) {
   return (
     <Dialog>
-      <DialogTrigger key={src} className="cursor-pointer">
+      <DialogTrigger key={src} className="cursor-pointer transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
         <Image
           src={src}
           alt={alt}
           width={900}
           height={900}
           quality={80}
+          className="transition duration 300 ease-in-out hover:-translate-y-1 hover:scale-100"
         ></Image>
       </DialogTrigger>
       <DialogContent className="sm:max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl sm:max-h-full md:max-h-2xl lg:max-h-3xl xl:max-h-5xl">

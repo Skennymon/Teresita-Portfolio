@@ -19,7 +19,7 @@ export default function Home() {
           </h1>
           <Link
             className="w-[5rem] h-[3rem] md:w-[10rem] border rounded-2xl p-7 bg-emerald-300 font-main flex items-center justify-center"
-            href="/pages/choosecategory"
+            href="/portfolio"
           >
             Enter Portfolio
           </Link>
