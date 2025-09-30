@@ -240,57 +240,7 @@ export default function Portfolio() {
     <>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 my-10 mx-auto xl:hidden">
         {photos.map((photo) => (
-          <Dialog key={photo.src}>
-            <DialogTrigger key={photo.src} className="cursor-pointer">
-              <Image
-                src={photo.src}
-                alt={photo.alt}
-                width={750}
-                height={750}
-                quality={80}
-                key={photo.src}
-              ></Image>
-            </DialogTrigger>
-            <DialogContent className="sm:max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl sm:max-h-full md:max-h-3xl lg:max-h-4xl xl:max-h-5xl">
-              <DialogHeader>
-                <DialogTitle className="text-2xl font-bold">
-                  {photo.alt}
-                </DialogTitle>
-              </DialogHeader>
-
-              <Carousel className="w-full flex items-center justify-center">
-                <CarouselContent>
-                  {photo.correspondingPhotos.map((correspondingPhoto) => (
-                    <CarouselItem
-                      key={correspondingPhoto.src}
-                      className="w-full flex items-center justify-center"
-                    >
-                      <Image
-                        src={correspondingPhoto.src}
-                        alt={correspondingPhoto.alt}
-                        width={500}
-                        height={200}
-                        quality={80}
-                      ></Image>
-                    </CarouselItem>
-                  ))}
-                  {photo.correspondingVideos.map((correspondingVideo) => (
-                    <iframe
-                      key={correspondingVideo.src}
-                      width={950}
-                      height={600}
-                      src={correspondingVideo.src}
-                      title="YouTube video player"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowFullScreen
-                    ></iframe>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious className="ml-8" />
-                <CarouselNext className="mr-8" />
-              </Carousel>
-            </DialogContent>
-          </Dialog>
+          <DialogCustom key={photo.src} src={photo.src} alt={photo.alt} correspondingPhotos={photo.correspondingPhotos} correspondingVideos={photo.correspondingVideos}/>
         ))}
       </div>
 
