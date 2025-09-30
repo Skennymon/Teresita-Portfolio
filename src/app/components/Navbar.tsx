@@ -1,14 +1,15 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useClickAway } from "@uidotdev/usehooks";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Navbar() {
   const [dropDown, setDropdown] = useState(false);
-  const ref = useClickAway(() => {
+  const ref = useClickAway<HTMLDivElement>(() => {
     setDropdown(false);
   });
+
 
   return (
     <nav className="flex justify-between p-4">
