@@ -252,7 +252,7 @@ export default function Portfolio() {
           <h2 className="lg:text-7xl md:text-5xl text-2xl font-main bg-pink-300 rounded-lg p-2 text-black absolute z-5 top-[65%] left-[25%] border-white border">Strategic Storyteller</h2>
 
           {/*Cien*/}
-          <div className="absolute left-[0%] z-1">
+          <div className="absolute right-[50%] z-1">
             <DialogCustom
               src="/cover/LatinxFashionCover.png"
               alt="Latinx Fashion Cover"
@@ -335,7 +335,7 @@ export default function Portfolio() {
           </div>
 
           {/*Snacks*/}
-          <div className="absolute left-[25%] top-[85%] z-3">
+          <div className="absolute left-[25%] top-[175%] z-3">
             <DialogCustom
               src="/cover/GravitiFitnessCover.jpg"
               alt="Graviti Fitness Cover"
@@ -351,7 +351,7 @@ export default function Portfolio() {
           </div>
           
           {/*Zotfest*/}
-          <div className="absolute left-[69%] top-[100%] z-3">
+          <div className="absolute left-[69%] top-[125%] z-3">
             <DialogCustom
               src="/cover/ZotfestCover.jpg"
               alt="Zotfest Cover"
@@ -375,7 +375,7 @@ export default function Portfolio() {
           </div>
 
           {/*DreamBoys*/}
-          <div className="absolute left-[47%] top-[0%] z-3">
+          <div className="absolute left-[50%] top-[0%] z-3">
             <DialogCustom
               src="/cover/DreamBoyCover.png"
               alt="DreamBoys Cover"
@@ -389,7 +389,7 @@ export default function Portfolio() {
             />
           </div>
           {/*Echolalia Dreams*/}
-          <div className="absolute left-[40%] top-[40%] z-2">
+          <div className="absolute left-[50%] top-[60%] z-2">
             <DialogCustom
               src="/cover/EcholaliaDreams.jpg"
               alt="Echolalia Dreams Cover"
@@ -404,7 +404,7 @@ export default function Portfolio() {
           </div>
 
           {/*Fashion & Sneakers*/}
-          <div className="absolute z-3 left-[77%] top-[0%]">
+          <div className="absolute z-0 left-[25%] top-[125%]">
             <DialogCustom
               src="/cover/Fashion&SneakersCover.jpg"
               alt="Fashion & Sneakers Cover"
@@ -431,7 +431,7 @@ export default function Portfolio() {
           </div>
 
           {/*Ley Music Video*/}
-          <div className="absolute z-3 top-[95%] right-[74%]">
+          <div className="absolute z-3 top-[125%] right-[74%]">
             <DialogCustom
               src="/cover/LeyMusicVideoCover.jpg"
               alt="Ley Music Video Cover"
@@ -448,7 +448,7 @@ export default function Portfolio() {
           </div>
 
           {/*Echolalia Dreams Set*/}
-          <div className="absolute z-3 left-[75%] top-[27%]">
+          <div className="absolute z-3 left-[80%] top-[205%]">
             <DialogCustom
               src="/cover/EcholaliaDreamsSetCover.jpg"
               alt="Echolalia Dreams Set Cover"
@@ -471,7 +471,7 @@ export default function Portfolio() {
           </div>
 
           {/*Graduation With Kim*/}
-          <div className="absolute z-3 left-[74%] top-[75%]">
+          <div className="absolute z-3 right-[69%] top-[175%]">
             <DialogCustom
               src="/cover/GraduationWithKimCover.jpg"
               alt="Graduation With Kim Cover"
