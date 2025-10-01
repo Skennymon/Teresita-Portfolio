@@ -389,7 +389,7 @@ export default function Portfolio() {
             />
           </div>
           {/*Echolalia Dreams*/}
-          <div className="absolute left-[50%] top-[60%] z-2">
+          <div className="absolute left-[50%] top-[60%] z-1">
             <DialogCustom
               src="/cover/EcholaliaDreams.jpg"
               alt="Echolalia Dreams Cover"
