@@ -42,7 +42,7 @@ export default function DialogCustom({
           className="transition duration 300 ease-in-out hover:-translate-y-1 hover:scale-100"
         ></Image>
       </DialogTrigger>
-      <DialogContent className="h-auto w-auto">
+      <DialogContent className="h-auto w-auto bg-transparent border-none">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold">{alt}</DialogTitle>
         </DialogHeader>
@@ -57,8 +57,8 @@ export default function DialogCustom({
                 <Image
                   src={correspondingPhoto.src}
                   alt={correspondingPhoto.alt}
-                  width={900}
-                  height={700}
+                  width={400}
+                  height={225}
                 ></Image>
               </CarouselItem>
             ))}
