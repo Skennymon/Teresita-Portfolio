@@ -12,7 +12,7 @@ export default function Navbar() {
 
 
   return (
-    <nav className="flex justify-between p-4">
+    <div className="flex justify-between p-4">
       <h1 className="text-5xl"><Link href="/">Teresita Portfolio</Link></h1>
       <div className="md:flex md:gap-4 hidden">
         <Link className="text-4xl hover:cursor-pointer" href="/#aboutme">About Me</Link>
@@ -49,6 +49,6 @@ export default function Navbar() {
           </Link>
         </ul>
       </div>
-    </nav>
+    </div>
   );
 }

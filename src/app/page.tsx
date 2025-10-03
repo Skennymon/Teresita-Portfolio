@@ -86,19 +86,19 @@ export default function Home() {
       </Marquee>
 
       {/*Will Fix Weird Image Squish Later*/}
-      <section id="aboutme" className="w-full flex flex-col gap-4 items-center justify-center mt-4">
+      <section id="aboutme" className="w-full flex flex-col gap-4 items-center justify-between mt-4">
         <h2 className="lg:text-7xl md:text-5xl text-2xl mt-4">About Me</h2>
-        <div className="flex md:flex-row flex-col w-[75%] gap-4 p-7">
+        <div className="flex 2xl:flex-row flex-col lg:w-[75%] w-full gap-4 p-4">
           <Image
             src="/LatinxFashionPhotos/page8.png"
             alt="Teresita"
-            width={900}
-            height={900}
+            width={800}
+            height={800}
             quality={80}
             className="rounded-lg"
           />
           <div className="flex flex-col items-center justify-center gap-2">
-            <p className="md:text-4xl text-2xl">
+            <p className="xl:text-4xl text-2xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
               ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -114,18 +114,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center justify-center mt-4 gap-4 w-full">
+      <section className="flex flex-col items-center justify-center mt-8 gap-4 w-full">
         <h2 className="md:text-5xl text-2xl">Contact Me</h2>
         {/*Linkedin, Instagram , Email*/}
-          <div className="w-1/4 flex flex-col gap-4">
-            <Marquee className="w-full">
-              <Image className="mr-4 mx-4" src="/socials/LinkedIn_icon.svg.png" alt="LinkedIn Logo" width={50} height={50}/>
-              <Image className="mr-4 mx-4" src="/socials/Instagram_logo_2022.svg.png" alt="Instagram Logo" width={50} height={50}/>
-            </Marquee>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 w-full">
-              <p>LinkedIn: https://www.linkedin.com/in/teresitasc/</p>
-            </div>
+          <div className="w-1/2 flex gap-8 items-center justify-center">
+            <a className="justify-self-center">
+              <Image src="/Socials/LinkedIn_icon.svg.png" alt="LinkedIn" width={75} height={75} className="hover:scale-110 transition-transform hover:cursor-pointer"/>
+            </a>
+            <a className="justify-self-center">
+              <Image src="/Socials/Instagram_Logo_2022.svg.png" alt="Instagram" width={75} height={75} className="hover:scale-110 transition-transform hover:cursor-pointer"/>
+            </a>
+            <a className="justify-self-center">
+              <Image src="/Socials/Gmail_icon_(2020).svg.webp" alt="Email" width={75} height={75} className="hover:scale-110 transition-transform hover:cursor-pointer"/>
+            </a>
           </div>
       </section>
     </>

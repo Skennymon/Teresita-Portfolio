@@ -57,8 +57,8 @@ export default function DialogCustom({
                 <Image
                   src={correspondingPhoto.src}
                   alt={correspondingPhoto.alt}
-                  width={400}
-                  height={225}
+                  width={800}
+                  height={600}
                 ></Image>
               </CarouselItem>
             ))}
