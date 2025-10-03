@@ -15,7 +15,7 @@ export default function Home() {
           quality={80}
         ></Image>
         <div className="absolute flex flex-col items-center justify-center gap-7">
-          <h1 className="lg:text-7xl md:text-5xl text-2xl font-main bg-pink-300 rounded-lg p-2 text-black">
+          <h1 className="lg:text-7xl md:text-5xl text-2xl font-main bg-pink-300 rounded-lg p-2 text-yellow-100 font-bitcount-double">
             Creative Director
           </h1>
           <Link

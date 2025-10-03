@@ -248,8 +248,8 @@ export default function Portfolio() {
       <div className="flex items-center justify-center">
         <div className="hidden xl:block relative h-dvh w-[1920px]">
 
-          <h2 className="lg:text-7xl md:text-5xl text-2xl font-main bg-pink-300 rounded-lg p-2 text-black absolute z-5 left-[50%] border-white border">Creative Director</h2>
-          <h2 className="lg:text-7xl md:text-5xl text-2xl font-main bg-pink-300 rounded-lg p-2 text-black absolute z-5 top-[65%] left-[25%] border-white border">Strategic Storyteller</h2>
+          <h2 className="lg:text-7xl md:text-5xl text-2xl font-main bg-pink-300 rounded-lg p-2 text-yellow-100 absolute z-5 left-[50%] border-white border font-bitcount-double">Creative Director</h2>
+          <h2 className="lg:text-7xl md:text-5xl text-2xl font-main bg-pink-300 rounded-lg p-2 text-yellow-100 absolute z-5 top-[65%] left-[25%] border-white border font-bitcount-double">Strategic Storyteller</h2>
 
           {/*Cien*/}
           <div className="absolute right-[50%] z-1">
