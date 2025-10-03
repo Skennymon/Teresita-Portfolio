@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { useClickAway } from "@uidotdev/usehooks";
 import Link from "next/link";
 import Image from "next/image";

@@ -1,15 +1,6 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
 
 export default function Home() {
   return (
