@@ -12,11 +12,12 @@ export default function Navbar() {
 
 
   return (
-    <div className="flex items-center justify-between p-4 w-full rounded-md absolute top-[0%] z-1">
-      <Link className="text-5xl z-1 font-pt-serif hover:text-red-500 duration-75" href="/">Teresita Portfolio <br/> <span className="text-2xl">Creative Director & Storyteller</span></Link>
+    <div className="flex items-center justify-between p-4 w-full rounded-md md:absolute top-[0%] z-1">
+      <Link className="md:text-5xl text-2xl z-1 font-pt-serif hover:text-red-500 duration-75" href="/">Teresita Portfolio <br/> <span className="text-2xl">Creative Director & Storyteller</span></Link>
       <div className="md:flex md:gap-4 hidden">
         <Link className="text-4xl hover:cursor-pointer z-1 font-pt-serif hover:text-red-500 duration-75" href="/#aboutme">About Me</Link>
         <Link className="text-4xl hvoer:cursor-pointer z-1 font-pt-serif hover:text-red-500 duration-75" href="/portfolio">My Works</Link>
+        <Link className="text-4xl hvoer:cursor-pointer z-1 font-pt-serif hover:text-red-500 duration-75" href="/resume">Resume</Link>
       </div>
 
       <div
@@ -47,6 +48,7 @@ export default function Navbar() {
           <Link href="/pages/contactme" onClick={() => setDropdown(false)}>
             My Works
           </Link>
+          <Link href="/resume" onClick={() => setDropdown(false)}>Resume</Link>
         </ul>
       </div>
     </div>
