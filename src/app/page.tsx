@@ -132,7 +132,7 @@ export default function Home() {
           </a>
           <a className="justify-self-center">
             <Image
-              src="/Socials/Instagram_Logo_2022.svg.png"
+              src="/Socials/Instagram_logo_2022.svg.png"
               alt="Instagram"
               width={75}
               height={75}
