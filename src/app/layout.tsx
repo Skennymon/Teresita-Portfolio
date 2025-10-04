@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Bitcount_Grid_Double } from "next/font/google";
+import { Geist, Geist_Mono, Bitcount_Grid_Double, PT_Serif, Limelight } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import ThemeProvider from "@/utils/ThemeProvider";
@@ -20,6 +20,18 @@ const bitCountDoubleInk = Bitcount_Grid_Double({
   weight: "300",
 });
 
+const ptSerif = PT_Serif({
+  variable: "--font-pt-serif",
+  subsets: ["latin"],
+  weight: "400",
+});
+
+const limeLight = Limelight({
+  variable: "--font-limelight",
+  subsets: ["latin"],
+  weight: "400",
+});
+
 export const metadata: Metadata = {
   title: "Teresita Portfolio",
   description: "Teresita Portfolio Website",
@@ -33,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${bitCountDoubleInk.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${bitCountDoubleInk.variable} ${ptSerif.variable} ${limeLight.variable} antialiased`}
       >
           <Navbar />
           {children}

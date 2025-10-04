@@ -11,6 +11,8 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-bitcount-double: var(--font-bitcount-double);
+  --font-pt-serif: var(--font-pt-serif);
+  --font-limelight: var(--font-limelight);
 }
 
 @media (prefers-color-scheme: dark) {
