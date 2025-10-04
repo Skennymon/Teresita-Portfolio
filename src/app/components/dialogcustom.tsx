@@ -40,7 +40,7 @@ export default function DialogCustom({
           className="transition duration 300 ease-in-out hover:-translate-y-1 hover:scale-100"
         ></Image>
       </DialogTrigger>
-      <DialogContent className="bg-transparent border-none w-[90dvh]">
+      <DialogContent className="bg-transparent border-none w-[100dvh] max-[321px]:max-w-fit">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold">{alt}</DialogTitle>
         </DialogHeader>
