@@ -130,7 +130,7 @@ export default function Home() {
               className="hover:scale-110 transition-transform hover:cursor-pointer"
             />
           </a>
-          <a className="justify-self-center">
+          <a href="https://www.instagram.com/teresitacienfuegos/" target="_blank" className="justify-self-center">
             <Image
               src="/Socials/Instagram_logo_2022.svg.png"
               alt="Instagram"
