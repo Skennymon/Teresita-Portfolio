@@ -40,7 +40,7 @@ export default function DialogCustom({
           className="transition duration 300 ease-in-out hover:-translate-y-1 hover:scale-100"
         ></Image>
       </DialogTrigger>
-      <DialogContent className="h-auto w-auto bg-transparent border-none">
+      <DialogContent className="bg-transparent border-none w-[90dvh]">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold">{alt}</DialogTitle>
         </DialogHeader>
@@ -50,27 +50,26 @@ export default function DialogCustom({
             {correspondingPhotos.map((correspondingPhoto) => (
               <CarouselItem
                 key={correspondingPhoto.src}
-                className="w-full h-full flex items-center justify-center"
+                className="w-auto h-auto flex items-center justify-center"
               >
                 <Image
                   src={correspondingPhoto.src}
                   alt={correspondingPhoto.alt}
-                  width={800}
-                  height={600}
+                  width={1000}
+                  height={1000}
                 ></Image>
               </CarouselItem>
             ))}
             {correspondingVideos.map((correspondingVideo) => (
-              <CarouselItem className="w-aut h-auto flex items-center justify-center" key={correspondingVideo.src}>
-                <iframe
-                  key={correspondingVideo.src}
-                  width={450}
-                  height={300}
-                  src={correspondingVideo.src}
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+              <CarouselItem className="w-auto h-auto flex items-center justify-center" key={correspondingVideo.src}>
+                  <iframe
+                    key={correspondingVideo.src}
+                    className="md:w-[450px] md:h-[450px]"
+                    src={correspondingVideo.src}
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
               </CarouselItem>
             ))}
           </CarouselContent>
