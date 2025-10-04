@@ -31,24 +31,25 @@ export default function Navbar() {
           <Image src="/hamburger.svg" alt="Hamburger Menu" width={500} height={500} />
         </button>
         <ul
-          className={`flex flex-col border gap-4 w-56 absolute top-10 right-2 rounded-2xl items-center justify-center p-5 bg-gray-950 border-gray-600 shadow-gray-600 shadow transition-all duration-75 ease-in-out z-1 ${
+          className={`flex flex-col border gap-4 w-56 absolute top-10 right-2 rounded-2xl items-center justify-center p-5 bg-gray-950 border-gray-800 transition-all duration-75 ease-in-out z-1 ${
             dropDown
               ? "max-h-screen opacity-100"
               : "max-h-0 opacity-0 pointer-events-none"
           }`}
         >
           <Link
-            href="/pages/about"
+            href="/#aboutme"
+            className="font-limelight hover:text-red-500 duration-75"
             onClick={() => {
               setDropdown(false);
             }}
           >
             About me
           </Link>
-          <Link href="/pages/contactme" onClick={() => setDropdown(false)}>
+          <Link href="/portfolio" className="font-limelight hover:text-red-500 duration-75" onClick={() => setDropdown(false)}>
             My Works
           </Link>
-          <Link href="/resume" onClick={() => setDropdown(false)}>Resume</Link>
+          <Link href="/resume" className="font-limelight hover:text-red-500 duration-75" onClick={() => setDropdown(false)}>Resume</Link>
         </ul>
       </div>
     </div>
