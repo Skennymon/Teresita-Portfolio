@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Bitcount_Grid_Double, PT_Serif, Limelight } from "ne
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import ThemeProvider from "@/utils/ThemeProvider";
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -49,6 +50,7 @@ export default function RootLayout({
       >
           <Navbar />
           {children}
+          <Analytics/>
       </body>
     </html>
   );
