@@ -26,6 +26,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      {/*}
       <Marquee className="mt-4">
         <Image
           src="/Graviti/Graviti1.jpg"
@@ -84,7 +85,7 @@ export default function Home() {
           className="mx-4"
         />
       </Marquee>
-
+        */}
       {/*Will Fix Weird Image Squish Later*/}
       <section
         id="aboutme"
