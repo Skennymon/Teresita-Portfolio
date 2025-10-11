@@ -19,74 +19,14 @@ export default function Home() {
             Teresita Cienfuegos <span className="lg:text-5xl md:text-3xl text-1xl text-center">Film & Media Studies</span>
           </h1>
           <Link
-            className="w-[5rem] h-[3rem] md:w-[10rem] border rounded-2xl p-7 bg-teal-300 font-pt-serif flex items-center justify-center px-5 py-2.5 text-black duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:translate-y-1 active:scale-x-110 active:scale-y-90 hover:-translate-y-1 hover:scale-105"
+            className="w-[5rem] h-[3rem] md:w-[10rem] border rounded-2xl p-7 bg-red-400 font-pt-serif flex items-center justify-center px-5 py-2.5 text-black duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:translate-y-1 active:scale-x-110 active:scale-y-90 hover:-translate-y-1 hover:scale-105"
             href="/portfolio"
           >
             Enter Portfolio
           </Link>
         </div>
       </section>
-      {/*}
-      <Marquee className="mt-4">
-        <Image
-          src="/Graviti/Graviti1.jpg"
-          alt="Graviti1"
-          width={300}
-          height={100}
-          className="mx-4"
-        />
-        <Image
-          src="/Graviti/Graviti2.jpg"
-          alt="Graviti2"
-          width={300}
-          height={100}
-          className="mx-4"
-        />
-        <Image
-          src="/Graviti/Graviti3.jpg"
-          alt="Graviti3"
-          width={300}
-          height={100}
-          className="mx-4"
-        />
-        <Image
-          src="/Graviti/Graviti4.jpg"
-          alt="Graviti4"
-          width={300}
-          height={100}
-          className="mx-4"
-        />
-        <Image
-          src="/Zotfest/3.png"
-          alt="Zotfest1"
-          width={300}
-          height={100}
-          className="mx-4"
-        />
-        <Image
-          src="/Zotfest/4.png"
-          alt="Zotfest1"
-          width={300}
-          height={100}
-          className="mx-4"
-        />
-        <Image
-          src="/cover/LatinxFashionCover.png"
-          alt="Latinx Fashion Cover"
-          width={300}
-          height={100}
-          className="mx-4"
-        />
-        <Image
-          src="/cover/DreamBoyCover.png"
-          alt="Dream Boy Cover"
-          width={300}
-          height={100}
-          className="mx-4"
-        />
-      </Marquee>
-        */}
-      {/*Will Fix Weird Image Squish Later*/}
+      
       <section
         id="aboutme"
         className="w-full flex flex-col gap-4 items-center justify-between mt-4"
