@@ -6,7 +6,13 @@ export default function Portfolio() {
   
   return (
     <>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mx-auto xl:hidden md:mt-40">
+      <nav className="flex md:flex-row flex-col gap-4 items-center justify-center z-10 md:mt-40 mt-20 mb-4">
+          <h2 className="text-3xl underline font-pt-serif text-red-500">All</h2>
+          <h2 className="text-3xl font-pt-serif">Set Design</h2>
+          <h2 className="text-3xl font-pt-serif">Marketing Internships</h2>
+          <h2 className="text-3xl font-pt-serif">Makeup</h2>
+      </nav>
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mx-auto xl:hidden">
         {photos.map((photo) => (
           <DialogCustom key={photo.src} src={photo.src} alt={photo.alt} correspondingPhotos={photo.correspondingPhotos} correspondingVideos={photo.correspondingVideos}/>
         ))}
@@ -14,7 +20,7 @@ export default function Portfolio() {
 
       {/* Large Screen View */}
       <div className="flex items-center justify-center">
-        <div className="hidden xl:block relative h-dvh mt-30 w-[1920px]">
+        <div className="hidden xl:block relative h-dvh w-[1920px]">
 
           <h2 className="lg:text-7xl md:text-5xl text-2xl font-main bg-pink-300 rounded-lg p-2 text-yellow-100 absolute z-5 left-[50%] border-white border font-bitcount-double">Creative Director</h2>
           <h2 className="lg:text-7xl md:text-5xl text-2xl font-main bg-pink-300 rounded-lg p-2 text-yellow-100 absolute z-5 top-[65%] left-[25%] border-white border font-bitcount-double">Strategic Storyteller</h2>
