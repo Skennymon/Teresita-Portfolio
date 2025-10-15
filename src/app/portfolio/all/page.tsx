@@ -1,17 +1,14 @@
-import DialogCustom from "../components/dialogcustom";
+import Link from "next/link";
+import DialogCustom from "../../components/dialogcustom";
 import allPhotosVideos from "@/utils/photos";
+import WorkNavbar from "@/app/components/WorkNavbar";
 
 export default function Portfolio() {
   const photos = allPhotosVideos;
   
   return (
     <>
-      <nav className="flex md:flex-row flex-col gap-4 items-center justify-center z-10 md:mt-40 mt-20 mb-4">
-          <h2 className="text-3xl underline font-pt-serif text-red-500">All</h2>
-          <h2 className="text-3xl font-pt-serif">Set Design</h2>
-          <h2 className="text-3xl font-pt-serif">Marketing Internships</h2>
-          <h2 className="text-3xl font-pt-serif">Makeup</h2>
-      </nav>
+      <WorkNavbar current="all"/>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mx-auto xl:hidden">
         {photos.map((photo) => (
           <DialogCustom key={photo.src} src={photo.src} alt={photo.alt} correspondingPhotos={photo.correspondingPhotos} correspondingVideos={photo.correspondingVideos}/>
