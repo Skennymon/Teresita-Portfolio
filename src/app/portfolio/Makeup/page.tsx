@@ -88,11 +88,11 @@ export default function Makeup() {
                   alt: "Fashion & Sneakers Photo 1",
                 },
                 {
-                  src: "/Fashion&Sneakers/Fashion&Sneakers2.jpg",
+                  src: "/Fashion&Sneakers/Fashion&Sneakers2.JPG",
                   alt: "Fashion & Sneakers Photo 2",
                 },
                 {
-                  src: "/Fashion&Sneakers/Fashion&Sneakers3.jpg",
+                  src: "/Fashion&Sneakers/Fashion&Sneakers3.JPG",
                   alt: "Fashion & Sneakers Photo 3",
                 },
               ]}
@@ -114,11 +114,11 @@ export default function Makeup() {
                   alt: "Fashion & Sneakers Photo 1",
                 },
                 {
-                  src: "/Fashion&Sneakers/Fashion&Sneakers2.jpg",
+                  src: "/Fashion&Sneakers/Fashion&Sneakers2.JPG",
                   alt: "Fashion & Sneakers Photo 2",
                 },
                 {
-                  src: "/Fashion&Sneakers/Fashion&Sneakers3.jpg",
+                  src: "/Fashion&Sneakers/Fashion&Sneakers3.JPG",
                   alt: "Fashion & Sneakers Photo 3",
                 },
               ]}
@@ -140,11 +140,11 @@ export default function Makeup() {
                   alt: "Fashion & Sneakers Photo 1",
                 },
                 {
-                  src: "/Fashion&Sneakers/Fashion&Sneakers2.jpg",
+                  src: "/Fashion&Sneakers/Fashion&Sneakers2.JPG",
                   alt: "Fashion & Sneakers Photo 2",
                 },
                 {
-                  src: "/Fashion&Sneakers/Fashion&Sneakers3.jpg",
+                  src: "/Fashion&Sneakers/Fashion&Sneakers3.JPG",
                   alt: "Fashion & Sneakers Photo 3",
                 },
               ]}
