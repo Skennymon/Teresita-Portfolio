@@ -21,7 +21,7 @@ export default function WorkNavbar({ current } : WorkNavbarProps) {
           Set Design
         </Link>
         <Link
-          href="/portfolio/Marketing-Internships"
+          href="/portfolio/Marketing"
           className={current === "marketing" ? "text-3xl underline font-pt-serif text-red-500" : "text-3xl font-pt-serif hover:text-red-400"}
         >
           Marketing Internships
