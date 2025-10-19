@@ -27,7 +27,7 @@ export default function WorkNavbar({ current } : WorkNavbarProps) {
           Marketing Internships
         </Link>
         <Link
-          href="/portfolio/Makeup-Artist"
+          href="/portfolio/Makeup"
           className={current === "makeup" ? "text-3xl underline font-pt-serif text-red-500" : "text-3xl font-pt-serif hover:text-red-400"}
         >
           Makeup
