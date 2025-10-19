@@ -174,7 +174,7 @@ export default function Makeup() {
               alt="Ley Music Video Cover"
               correspondingPhotos={[
                 {
-                  src: "/Ley/LeyMusicVideoCover.jpg",
+                  src: "/cover/LeyMusicVideoCover.jpg",
                   alt: "Ley Music Video Cover Photo",
                 },
                 { src: "/Ley/Ley1.jpg", alt: "Ley Music Video Photo 1" },
@@ -190,7 +190,7 @@ export default function Makeup() {
               alt="Ley Music Video Cover"
               correspondingPhotos={[
                 {
-                  src: "/Ley/LeyMusicVideoCover.jpg",
+                  src: "/cover/LeyMusicVideoCover.jpg",
                   alt: "Ley Music Video Cover Photo",
                 },
                 { src: "/Ley/Ley1.jpg", alt: "Ley Music Video Photo 1" },
