@@ -102,7 +102,7 @@ export default function Makeup() {
 
           <div className="absolute left-[5%] top-[45%] z-3">
             <DialogCustom
-              src="/Fashion&Sneakers/Fashion&Sneakers2.jpg"
+              src="/Fashion&Sneakers/Fashion&Sneakers2.JPG"
               alt="Fashion & Sneakers Cover"
               correspondingPhotos={[
                 {
@@ -128,7 +128,7 @@ export default function Makeup() {
 
           <div className="absolute left-[25%] top-[85%] z-3">
             <DialogCustom
-              src="/Fashion&Sneakers/Fashion&Sneakers3.jpg"
+              src="/Fashion&Sneakers/Fashion&Sneakers3.JPG"
               alt="Fashion & Sneakers Cover"
               correspondingPhotos={[
                 {
