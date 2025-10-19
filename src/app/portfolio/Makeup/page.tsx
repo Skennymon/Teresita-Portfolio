@@ -88,11 +88,11 @@ export default function Makeup() {
                   alt: "Fashion & Sneakers Photo 1",
                 },
                 {
-                  src: "/Fashion&Sneakers/Fashion&Sneakers2.JPG",
+                  src: "/Fashion&Sneakers/Fashion&Sneakers2.jpg",
                   alt: "Fashion & Sneakers Photo 2",
                 },
                 {
-                  src: "/Fashion&Sneakers/Fashion&Sneakers3.JPG",
+                  src: "/Fashion&Sneakers/Fashion&Sneakers3.jpg",
                   alt: "Fashion & Sneakers Photo 3",
                 },
               ]}
