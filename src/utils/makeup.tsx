@@ -68,7 +68,7 @@ const makeupPhotos = [
       correspondingVideos: [],
     },
     {
-      src: "/Fashion&Sneakers/Fashion&Sneakers2.jpg",
+      src: "/Fashion&Sneakers/Fashion&Sneakers2.JPG",
       alt: "Fashion & Sneakers Cover",
       correspondingPhotos: [
         {
@@ -91,7 +91,7 @@ const makeupPhotos = [
       correspondingVideos: [],
     },
     {
-      src: "/Fashion&Sneakers/Fashion&Sneakers3.jpg",
+      src: "/Fashion&Sneakers/Fashion&Sneakers3.JPG",
       alt: "Fashion & Sneakers Cover",
       correspondingPhotos: [
         {
