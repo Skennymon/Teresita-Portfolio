@@ -20,7 +20,7 @@ export default function Home() {
           </h1>
           <Link
             className="w-[5rem] h-[3rem] md:w-[10rem] border rounded-2xl p-7 bg-red-400 font-pt-serif flex items-center justify-center px-5 py-2.5 text-black duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:translate-y-1 active:scale-x-110 active:scale-y-90 hover:-translate-y-1 hover:scale-105"
-            href="/portfolio/All"
+            href="/portfolio/all"
           >
             Enter Portfolio
           </Link>

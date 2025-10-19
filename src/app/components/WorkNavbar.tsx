@@ -9,7 +9,7 @@ export default function WorkNavbar({ current } : WorkNavbarProps) {
     <>
       <nav className="flex md:flex-row flex-col gap-4 items-center justify-center z-10 md:mt-40 mt-20 mb-20">
         <Link
-          href="/portfolio/All"
+          href="/portfolio/all"
           className={current === "all" ? "text-3xl underline font-pt-serif text-red-500" : "text-3xl font-pt-serif hover:text-red-400"}
         >
           All
