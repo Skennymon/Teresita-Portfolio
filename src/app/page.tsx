@@ -15,7 +15,7 @@ export default function Home() {
           className="brightness-75"
         ></Image>
         <div className="absolute flex flex-col items-center justify-center gap-7">
-          <h1 className="lg:text-7xl md:text-5xl text-2xl font-main bg-pink-300 rounded-lg p-2 text-yellow-100 font-limelight flex flex-col">
+          <h1 className="lg:text-7xl md:text-5xl text-2xl font-main bg-red-400 rounded-lg p-2 text-yellow-100 font-limelight flex flex-col">
             Teresita Cienfuegos <span className="lg:text-5xl md:text-3xl text-1xl text-center">Film & Media Studies</span>
           </h1>
           <Link
