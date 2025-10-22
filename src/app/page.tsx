@@ -16,7 +16,10 @@ export default function Home() {
         ></Image>
         <div className="absolute flex flex-col items-center justify-center gap-7">
           <h1 className="lg:text-7xl md:text-5xl text-2xl font-main bg-red-400 rounded-lg p-2 text-yellow-100 font-limelight flex flex-col">
-            Teresita Cienfuegos <span className="lg:text-5xl md:text-3xl text-1xl text-center">Film & Media Studies</span>
+            Teresita Cienfuegos{" "}
+            <span className="lg:text-5xl md:text-3xl text-1xl text-center">
+              Film & Media Studies
+            </span>
           </h1>
           <Link
             className="w-[5rem] h-[3rem] md:w-[10rem] border rounded-2xl p-7 bg-red-400 font-pt-serif flex items-center justify-center px-5 py-2.5 text-black duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:translate-y-1 active:scale-x-110 active:scale-y-90 hover:-translate-y-1 hover:scale-105"
@@ -26,12 +29,14 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      
+
       <section
         id="aboutme"
         className="w-full flex flex-col gap-4 items-center justify-between mt-4"
       >
-        <h2 className="lg:text-7xl md:text-5xl text-2xl mt-4 font-pt-serif">About Me</h2>
+        <h2 className="lg:text-7xl md:text-5xl text-2xl mt-4 font-pt-serif">
+          About Me
+        </h2>
         <div className="flex 2xl:flex-row flex-col lg:w-[80%] w-full gap-4 p-4 items-center justify-center">
           <Image
             src="/LatinxFashionPhotos/page8.png"
@@ -43,16 +48,29 @@ export default function Home() {
           />
           <div className="flex flex-col items-center justify-center gap-2">
             <p className="2xl:text-5xl text-2xl text-center font-pt-serif">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I&apos;m Teresita Salazar Cienfuegos, a Creative Director and
+              Social Media Manager specializing in building cohesive brand
+              identities and digital narratives that engage and inspire
+              audiences. With a background in creative strategy and visual
+              storytelling, I bring about a creative vision and significant
+              results. {"\n"} Over the past four years, I’ve developed and led
+              campaigns that combine compelling content with data-driven
+              insights, ensuring every creative decision aligns with brand
+              purpose and audience behavior. From concept development to
+              execution, I aim to transform ideas into impactful visual stories
+              across social platforms. {"\n"} I’m passionate about helping
+              brands leave a lasting impression on their audience, and evolve
+              that brand into a social identity that sets it apart from other
+              brands.
             </p>
-            <Link href="/resume" className="flex items-center justify-center w-full">
-              <button className="rounded-2xl p-7 bg-gray-800 font-main flex items-center justify-center  overflow-hidden px-5 py-2.5 text-white duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:translate-y-1 active:scale-x-110 active:scale-y-90 hover:-translate-y-1 hover:scale-105 hover:cursor-pointer">View my Resume</button>
+
+            <Link
+              href="/resume"
+              className="flex items-center justify-center w-full"
+            >
+              <button className="rounded-2xl p-7 bg-gray-800 font-main flex items-center justify-center  overflow-hidden px-5 py-2.5 text-white duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:translate-y-1 active:scale-x-110 active:scale-y-90 hover:-translate-y-1 hover:scale-105 hover:cursor-pointer">
+                View my Resume
+              </button>
             </Link>
           </div>
         </div>
@@ -62,7 +80,11 @@ export default function Home() {
         <h2 className="md:text-5xl text-2xl font-pt-serif">Contact Me</h2>
         {/*Linkedin, Instagram , Email*/}
         <div className="w-1/2 flex gap-8 items-center justify-center">
-          <a href="https://www.linkedin.com/in/teresitasc/" target="_blank" className="justify-self-center">
+          <a
+            href="https://www.linkedin.com/in/teresitasc/"
+            target="_blank"
+            className="justify-self-center"
+          >
             <Image
               src="/Socials/LinkedIn_icon.svg.png"
               alt="LinkedIn"
@@ -71,7 +93,11 @@ export default function Home() {
               className="hover:scale-110 transition-transform hover:cursor-pointer"
             />
           </a>
-          <a href="https://www.instagram.com/teresitacienfuegos/" target="_blank" className="justify-self-center">
+          <a
+            href="https://www.instagram.com/teresitacienfuegos/"
+            target="_blank"
+            className="justify-self-center"
+          >
             <Image
               src="/Socials/Instagram_logo_2022.svg.png"
               alt="Instagram"
