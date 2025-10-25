@@ -53,12 +53,12 @@ export default function Home() {
               identities and digital narratives that engage and inspire
               audiences. With a background in creative strategy and visual
               storytelling, I bring about a creative vision and significant
-              results. {"\n"} Over the past four years, I’ve developed and led
+              results. Over the past four years, I’ve developed and led
               campaigns that combine compelling content with data-driven
               insights, ensuring every creative decision aligns with brand
               purpose and audience behavior. From concept development to
               execution, I aim to transform ideas into impactful visual stories
-              across social platforms. {"\n"} I’m passionate about helping
+              across social platforms. I’m passionate about helping
               brands leave a lasting impression on their audience, and evolve
               that brand into a social identity that sets it apart from other
               brands.
