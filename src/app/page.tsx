@@ -47,7 +47,7 @@ export default function Home() {
             className="rounded-lg"
           />
           <div className="flex flex-col items-center justify-center gap-2">
-            <p className="2xl:text-5xl text-2xl text-center font-pt-serif">
+            <p className="2xl:text-4xl text-2xl text-center font-pt-serif">
               I&apos;m Teresita Salazar Cienfuegos, a Creative Director and
               Social Media Manager specializing in building cohesive brand
               identities and digital narratives that engage and inspire
